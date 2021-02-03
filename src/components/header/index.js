@@ -5,7 +5,7 @@ import Logo from '../../assets/images/logo.png';
 const Header = (props) => {
   return (
     <header className="headerComponent" data-test="headerComponent">
-      <div className="wrap">
+      <div className="container">
         <div className="logo">
           <img src={Logo} alt="Logo" data-test="logoImg" />
         </div>
